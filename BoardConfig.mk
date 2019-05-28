@@ -43,4 +43,4 @@ TARGET_MODULE_ALIASES += \
     irq-madera.ko:cirrus_irq-madera.ko
 
 # SELinux
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
